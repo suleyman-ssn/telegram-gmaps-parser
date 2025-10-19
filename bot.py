@@ -6,9 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-
+GOOGLE_API_KEY = 'AIzaSyDpyTDK10xdMPhqCiTQgwP-yxACejunDgU'
+TELEGRAM_TOKEN = '8271860669:AAFaiP_YuHfIamdN_Yt8nLXpC_SkuteiBwc'
 CHOOSING_LANGUAGE, CHOOSING_CATEGORY, CHOOSING_COUNTRY, CHOOSING_CITY = range(4)
 
 
